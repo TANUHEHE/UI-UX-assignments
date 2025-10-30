@@ -17,25 +17,39 @@
   <a href="about.html">About Us</a>
 </nav>
 
-<div class="container gallery">
+<div class="gallery">
   <figure>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUWisax0zu7kRPSCarWakgaBsf5LPOE8K8rQ&s" alt="Paris">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUWisax0zu7kRPSCarWakgaBsf5LPOE8K8rQ&s" alt="Paris"
+          data-large="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1600" class="thumbnail" >
     <figcaption>Romantic Paris</figcaption>
   </figure>
   <figure>
-    <img src="https://static.toiimg.com/photo/53840498.cms" alt="Bali Beach">
+    <img src="https://static.toiimg.com/photo/53840498.cms" alt="Bali Beach"
+    data-large="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600"
+      class="thumbnail">
     <figcaption>Relaxing Bali</figcaption>
   </figure>
   <figure>
-    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/56000/56828-Dubai.jpg" alt="Dubai Skyline">
+    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/56000/56828-Dubai.jpg" alt="Dubai Skyline"
+    data-large="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX09qA8LFcgEaHAECJjQQcfFpyGK8akKaX7A&s"
+      class="thumbnail">
     <figcaption>Modern Dubai</figcaption>
   </figure>
   <figure>
-    <img src="https://etimg.etb2bimg.com/photo/117927392.cms" alt="Maldives Resort">
+    <img src="https://etimg.etb2bimg.com/photo/117927392.cms" alt="Maldives Resort"
+    data-large="https://s1.it.atcdn.net/wp-content/uploads/2016/08/Gili-Villa.jpg"
+      class="thumbnail">
     <figcaption>Luxury Maldives</figcaption>
   </figure>
 </div>
 
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg">
+  <div id="caption"></div>
+</div>
+
 <footer>© 2025 Dream Travels</footer>
+<script src="gallery.js"></script>
 </body>
 </html>
